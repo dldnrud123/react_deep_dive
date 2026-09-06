@@ -1,8 +1,22 @@
+연구 주제 : React Rendering Mental Model
 
-1장 (리액트 시작): Virtual DOM의 개념 (왜 리액트가 빠른지)
-2장 (JSX): JSX 문법 (PHP 뷰 템플릿 짜는 것과 비슷함)
-3장 (컴포넌트): 컴포넌트 선언, Props (PHP의 함수 선언과 파라미터 전달 개념)
-4장 (이벤트 핸들링): onClick 등 이벤트 바인딩 (jQuery의 .on('click') 대체)
-6장 (컴포넌트 반복): map 함수 사용법과 key의 중요성 (스터디 목차의 'key가 단순 warning 제거용이 아닌 이유'와 직결됨)
-11장 (컴포넌트 성능 최적화): 불변성(Immutability) 유지, 불변성이 왜 리렌더링에 영향을 주는지.
+**핵심 질문:** 
+React는 어떤 과정을 통해 UI를 업데이트하는가?
+
+### 공용 학습 목표
+
+- Declarative UI의 의미를 설명할 수 있다.
+- Component 실행과 DOM 업데이트를 구분할 수 있다.
+- Render Trigger → Render Phase → Commit Phase 흐름을 설명할 수 있다.
+- Reconciliation이 무엇을 비교하고 왜 필요한지 설명할 수 있다.
+- Component Identity와 Render Tree의 관계를 이해한다.
+- `key`가 단순 warning 제거용이 아닌 이유를 설명할 수 있다.
+- Re-render와 실제 DOM mutation이 같은 개념이 아님을 설명할 수 있다.
+
+
+### 주간 산출물
+
+- React Mental Model #1 — Render에서 Commit까지 1페이지 정리
+- 코드 실험 결과 및 예상과 달랐던 점 기록
+
 
